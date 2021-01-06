@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,400;1,700&display=swap');
+.jumbotron{
+  width:100%;
+  min-height:720px;
+  background:url("../image/b2.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin:0;
+  padding:5px;
+}
+.jumbotron::before{
+  content:'';
+  background: rgba(42, 38, 61, 0.82);
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+
+}
+img{
+  position: absolute;
+  left:20px;
+  top:20px;
+}
+img:hover{
+  cursor: pointer;
+}
+
+.container{
+  position: relative;
+
+}
+h1{
+  font-family: Pacifico;
+  font-size: 48px;
+  color:#FCB371;
+  margin-bottom: 100px;
+}
+.container{
+  padding-top:5%;
+
+}
+form{
+  width:500px;
+  margin:Auto;
+}
+textarea{
+  resize: none;
+}
